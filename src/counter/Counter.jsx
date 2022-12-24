@@ -30,7 +30,6 @@ export class Counter extends Component {
   }
 
   changeValue(extra) {
-    const { count } = this.state;
     this.setState((prevState) => ({ count: prevState.count + extra }));
   }
 }
